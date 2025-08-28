@@ -4,18 +4,17 @@ Análise de dados de biodiversidade da Mata Atlântica usando dados do ICMBio
 # Análise de Biodiversidade da Mata Atlântica
 
 ## Sobre o Projeto
-Análise exploratória de dados sobre espécies da Mata Atlântica para identificar padrões de biodiversidade e conservação. Este projeto aplica técnicas de ciência de dados em dados ambientais brasileiros oficiais.
+Análise exploratória de dados sobre espécies ameaçadas da Mata Atlântica brasileira utilizando dados oficiais do ICMBio. Este projeto demonstra a aplicação de técnicas de ciência de dados para insights de conservação ambiental.
 
 ## Objetivos
 - Identificar padrões de distribuição de espécies ameaçadas
 - Analisar efetividade das Unidades de Conservação
 - Desenvolver insights para políticas de conservação
-- Demonstrar aplicação de ciência de dados em biologia
+- Mapear hotspots de biodiversidade por estado e unidade de conservação.
+- Avaliar endemismo barsileiro e suas implicações para conservação
 
 ## Fontes de Dados
 - *ICMBio SALVE*: Sistema de Avaliação do Risco de Extinção da Biodiversidade
-- *Portal de Dados Abertos*: Unidades de Conservação federais
-- *SiBBr*: Sistema de Informação sobre a Biodiversidade Brasileira
 
 ## Tecnologias Utilizadas
 - *Python 3.8+*
@@ -27,22 +26,22 @@ Análise exploratória de dados sobre espécies da Mata Atlântica para identifi
 ## Estrutura do Projeto
 ```
 analise-biodiversidade-mata-atlantica/
-├── README.md
-├── requirements.txt
-├── .gitignore
+│ 
 ├── data/
 │   ├── raw/                 # Dados originais
 │   └── processed/           # Dados processados
 ├── notebooks/
-│   ├── 01_coleta_exploracao.ipynb
+│   ├── 01_limpeza_e_exploracao.ipynb
 │   ├── 02_analise_geografica.ipynb
 │   └── 03_visualizacoes_insights.ipynb
 ├── src/
 │   ├── data_collection.py
 │   ├── data_processing.py
 │   └── visualization.py
-└── images/
-    └── [gráficos e visualizações]
+├── images/
+│   └── [gráficos e visualizações]
+├── requisitos.txt
+└── README.md
 ```
 
 ## Como Executar
@@ -58,11 +57,21 @@ git clone https://github.com/Carrascofs/analise-biodiversidade-mata-atlantica.gi
 cd analise-biodiversidade-mata-atlantica
 
 # Instalar dependências
-pip install -r requirements.txt
+pip install -r requisitos.txt
 
 # Iniciar Jupyter
 jupyter notebook
 ```
+
+## Principais Análises
+1. Distribuição por Categoria de Ameaça
+Análise das categorias de risco (CR, EN, VU, etc.) segundo critérios da IUCN.
+2. Hotspots de Biodiversidade
+Identificação dos estados, regiões e biomas com maior concentração de espécies ameaçadas.
+3. Endemismo Brasileiro
+Comparação entre espécies endêmicas e não-endêmicas, avaliando padrões de ameaça.
+4. Efetividade das Unidades de Conservação
+Avaliação da cobertura de espécies ameaçadas por UCs federais, estaduais e RPPNs.
 
 ## Principais Descobertas
 *Em desenvolvimento - será atualizado conforme a análise avança*
