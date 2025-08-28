@@ -61,6 +61,8 @@ pip install -r requisitos.txt
 
 # Iniciar Jupyter
 jupyter notebook
+
+Abra o jupyter notebook na pasta raiz do projeto
 ```
 
 ## Principais Análises
