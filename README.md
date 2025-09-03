@@ -11,7 +11,7 @@ Análise exploratória de dados sobre espécies ameaçadas da Mata Atlântica br
 - Analisar efetividade das Unidades de Conservação
 - Desenvolver insights para políticas de conservação
 - Mapear hotspots de biodiversidade por estado e unidade de conservação.
-- Avaliar endemismo barsileiro e suas implicações para conservação
+- Avaliar endemismo brasileiro e suas implicações para conservação
 
 ## Fontes de Dados
 - *ICMBio SALVE*: Sistema de Avaliação do Risco de Extinção da Biodiversidade
