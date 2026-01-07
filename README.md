@@ -85,7 +85,7 @@ Biólogo com mestrado em transição para Ciência de Dados, aplicando conhecime
 - **Email**: [carrascofs@gmail.com]
 
 ## Status do Projeto
-*Em Desenvolvimento* - Última atualização: [06/01/2026]
+*Em Desenvolvimento* - Última atualização: [07/01/2026]
 
 ---
 
