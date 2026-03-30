@@ -4,14 +4,12 @@ Análise de dados de biodiversidade da Mata Atlântica usando dados do ICMBio
 # Análise de Biodiversidade da Mata Atlântica
 
 ## Sobre o Projeto
-Análise exploratória de dados sobre espécies ameaçadas da Mata Atlântica brasileira utilizando dados oficiais do ICMBio. Este projeto demonstra a aplicação de técnicas de ciência de dados para insights de conservação ambiental.
+Análise exploratória de dados sobre espécies ameaçadas da Mata Atlântica brasileira utilizando dados oficiais do ICMBio. O projeto une o domínio científico da biologia com técnicas avançadas de manipulação de dados para identificar gargalos na conservação ambiental.
 
 ## Objetivos
-- Identificar padrões de distribuição de espécies ameaçadas
-- Analisar efetividade das Unidades de Conservação
-- Desenvolver insights para políticas de conservação
-- Mapear hotspots de biodiversidade por estado e unidade de conservação.
-- Avaliar endemismo brasileiro e suas implicações para conservação
+- Mapeamento de Hotspots: Identificação de polos de biodiversidade ameaçada por estado e região, utilizando técnicas de limpeza e expansão de dados geográficos (explode).
+
+- Análise de Distribuição e Endemismo: Comparação entre espécies endêmicas da Mata Atlântica e o cenário geral brasileiro, avaliando padrões de criticidade (CR, EN, VU).
 
 ## Fontes de Dados
 - *ICMBio SALVE*: Sistema de Avaliação do Risco de Extinção da Biodiversidade
@@ -29,7 +27,7 @@ analise-biodiversidade-mata-atlantica/
 │ 
 ├── data/
 │   ├── raw/                 # Dados originais
-│   └── processed/           # Dados processados
+│   └── processed/           # Dados limpos e normalizados
 ├── notebooks/
 │   ├── 01_limpeza_e_exploracao.ipynb
 │   ├── 02_analise_geografica.ipynb
@@ -85,7 +83,10 @@ Biólogo com mestrado em transição para Ciência de Dados, aplicando conhecime
 - **Email**: [carrascofs@gmail.com]
 
 ## Status do Projeto
-*Em Desenvolvimento* - Última atualização: [07/01/2026]
+Fase de Exploração e Geografia Concluída. Iniciando Análise de Efetividade de UCs.
+
+Última atualização: 27/03/2026
+
 
 ---
 
