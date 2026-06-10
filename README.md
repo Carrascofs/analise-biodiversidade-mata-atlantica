@@ -30,12 +30,7 @@ analise-biodiversidade-mata-atlantica/
 │   └── processed/           # Dados limpos e normalizados
 ├── notebooks/
 │   ├── 01_limpeza_e_exploracao.ipynb
-│   ├── 02_analise_geografica.ipynb
-│   └── 03_visualizacoes_insights.ipynb
-├── src/
-│   ├── data_collection.py
-│   ├── data_processing.py
-│   └── visualization.py
+│   
 ├── images/
 │   └── [gráficos e visualizações]
 ├── requisitos.txt
@@ -74,7 +69,16 @@ Comparação entre espécies endêmicas e não-endêmicas, avaliando padrões de
 Avaliação da cobertura de espécies ameaçadas por UCs federais, estaduais e RPPNs.
 
 ## Principais Descobertas
-*Em desenvolvimento - será atualizado conforme a análise avança*
+
+A análise dos dados do Sistema SALVE (ICMBio) revelou um cenário crítico de vulnerabilidade para a biodiversidade da Mata Atlântica:
+
+- **Endemismo em Risco Extremo:** As espécies endêmicas do bioma estão sob uma pressão desproporcional. Dentre as endêmicas ameaçadas, **26,16%** já se encontram na categoria máxima de risco ("Criticamente em Perigo").
+- **O Epicentro do Risco (Sudeste):** A região Sudeste é o principal *hotspot* de ameaça, concentrando **322 espécies** endêmicas vulneráveis. Os estados de Minas Gerais, Rio de Janeiro e São Paulo encabeçam a lista de prioridade de conservação.
+- **O Peso das Esferas de Proteção:** As Unidades de Conservação (UCs) Estaduais carregam a maior parcela da rede de proteção atual (**44,6%**), seguidas de perto pelas UCs Federais (**41,0%**). As Reservas Particulares do Patrimônio Natural (RPPNs) amparam apenas **15,0%** dessas espécies.
+
+### Recomendações Estratégicas
+- **Políticas Públicas Estaduais:** Como os estados são a espinha dorsal da proteção atual, investimentos em infraestrutura e fiscalização das UCs Estaduais no Sudeste e Nordeste trarão o maior retorno de preservação por área.
+- **Incentivo à Iniciativa Privada:** O baixo percentual de amparo das RPPNs indica um enorme potencial inexplorado. Campanhas e subsídios para a criação de novas reservas privadas nas regiões de *hotspot* representam a forma mais ágil de expandir a malha de proteção.
 
 ## Sobre o Autor
 Biólogo com mestrado em transição para Ciência de Dados, aplicando conhecimento científico para resolver problemas com dados.
@@ -83,9 +87,7 @@ Biólogo com mestrado em transição para Ciência de Dados, aplicando conhecime
 - **Email**: [carrascofs@gmail.com]
 
 ## Status do Projeto
-Fase de Exploração e Geografia Concluída. Iniciando Análise de Efetividade de UCs.
-
-Última atualização: 27/03/2026
+Finalizado
 
 
 ---
