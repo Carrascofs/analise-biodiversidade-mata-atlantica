@@ -18,7 +18,6 @@ Análise exploratória de dados sobre espécies ameaçadas da Mata Atlântica br
 - *Python 3.8+*
 - *Pandas & NumPy* - manipulação e análise de dados
 - *Matplotlib & Seaborn* - visualizações
-- *GeoPandas & Folium* - análise geoespacial
 - *Jupyter Notebooks* - desenvolvimento interativo
 
 ## Estrutura do Projeto
